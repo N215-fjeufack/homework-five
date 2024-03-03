@@ -1,4 +1,4 @@
-nav {
+.nav-black {
   height: 92.5px;
   max-width: $content-width;
   margin: 0 auto;
@@ -60,7 +60,7 @@ nav {
 }
 
 @media all and (max-width: 1000px) {
-  nav {
+  .nav-black {
     a {
     }
     .logo {
@@ -79,7 +79,7 @@ nav {
 }
 
 @media all and (max-width: 920px) {
-  nav {
+  .nav-black {
     a {
     }
     .logo {
@@ -98,7 +98,7 @@ nav {
 }
 
 @media all and (max-width: 870px) {
-  nav {
+  .nav-black {
     flex-wrap: wrap;
     justify-content: center;
     a {

@@ -97,7 +97,7 @@ nav .links .last-link {
     margin: 0;
   }
 }
-nav {
+.nav-black {
   height: 92.5px;
   max-width: 980px;
   margin: 0 auto;
@@ -108,11 +108,11 @@ nav {
   position: relative;
   z-index: 99;
 }
-nav a {
+.nav-black a {
   text-decoration: none;
   color: black;
 }
-nav .logo {
+.nav-black .logo {
   width: 92px;
   height: 42px;
   border: 2px solid #000000;
@@ -123,12 +123,12 @@ nav .logo {
   display: flex;
   align-items: flex-end;
 }
-nav .logo span {
+.nav-black .logo span {
   margin-bottom: -5px;
   margin-left: -2px;
   letter-spacing: 2px;
 }
-nav .links {
+.nav-black .links {
   min-width: 632px;
   height: 42px;
   display: flex;
@@ -138,40 +138,40 @@ nav .links {
   font-size: 15px;
   font-weight: normal;
 }
-nav .links a {
+.nav-black .links a {
   border-right: 1px solid #79addc;
   padding-right: 35px;
 }
-nav .links .last-link {
+.nav-black .links .last-link {
   border: none;
   padding-right: 0;
 }
 
 @media all and (max-width: 1000px) {
-  nav .logo {
+  .nav-black .logo {
     margin-left: 50px;
   }
-  nav .links {
+  .nav-black .links {
     margin-right: 50px;
   }
 }
 @media all and (max-width: 920px) {
-  nav .logo {
+  .nav-black .logo {
     margin-left: 50px;
   }
-  nav .links {
+  .nav-black .links {
     margin-right: 50px;
   }
 }
 @media all and (max-width: 870px) {
-  nav {
+  .nav-black {
     flex-wrap: wrap;
     justify-content: center;
   }
-  nav .logo {
+  .nav-black .logo {
     margin: 0;
   }
-  nav .links {
+  .nav-black .links {
     margin: 0;
   }
 }
