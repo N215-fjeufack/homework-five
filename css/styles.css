@@ -102,7 +102,6 @@ nav .links .last-link {
   height: 92.5px;
   max-width: 980px;
   margin: 0 auto;
-  background-color: #ff0000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -516,15 +515,14 @@ nav .links .last-link {
 }
 .about {
   min-height: 500px;
-  width: 980px;
-  background-color: coral;
+  max-width: 980px;
   margin: 0 auto;
   padding-top: 100.5px;
+  padding-bottom: 179px;
 }
 .about .main-title-box {
   width: 171px;
   height: 73px;
-  background-color: aqua;
   border-bottom: 2px solid black;
 }
 .about .main-title-box .main-title {
@@ -538,7 +536,6 @@ nav .links .last-link {
 .about .sub-title-box {
   width: 255px;
   height: 49px;
-  background-color: aqua;
   border-bottom: 2px solid black;
   text-wrap: nowrap;
 }
@@ -547,6 +544,33 @@ nav .links .last-link {
   font-weight: 100;
   font-size: 40px;
   letter-spacing: 3px;
+}
+.about .client-box {
+  width: 712px;
+  height: 150px;
+  margin-top: 36.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.about .client-box .image-box {
+  height: 150px;
+  width: 260px;
+}
+.about .client-box .text-box {
+  height: 150px;
+  width: 427px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.about .client-box .text-box .client-paragraph {
+  width: 385px;
+  height: 102px;
+}
+.about .client-box .text-box .name {
+  max-width: 166px;
+  height: 24px;
+  align-self: self-end;
 }
 
 footer {

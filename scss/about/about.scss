@@ -1,14 +1,15 @@
 .about {
   min-height: 500px;
-  width: $content-width;
-  background-color: coral;
+  max-width: $content-width;
+  // background-color: coral;
   margin: 0 auto;
   padding-top: 100.5px;
+  padding-bottom: 179px;
 
   .main-title-box {
     width: 171px;
     height: 73px;
-    background-color: aqua;
+    // background-color: aqua;
     border-bottom: 2px solid black;
     .main-title {
       font-weight: 100;
@@ -23,7 +24,7 @@
   .sub-title-box {
     width: 255px;
     height: 49px;
-    background-color: aqua;
+    // background-color: aqua;
     border-bottom: 2px solid black;
     text-wrap: nowrap;
     .sub-title {
@@ -31,6 +32,43 @@
       font-weight: 100;
       font-size: 40px;
       letter-spacing: 3px;
+    }
+  }
+
+  .client-box {
+    width: 712px;
+    height: 150px;
+    // background-color: blue;
+    margin-top: 36.5px;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+
+    .image-box {
+      height: 150px;
+      width: 260px;
+      // background-color: aqua;
+    }
+
+    .text-box {
+      height: 150px;
+      width: 427px;
+      // background-color: blueviolet;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .client-paragraph {
+        width: 385px;
+        height: 102px;
+        // background-color: red;
+      }
+
+      .name {
+        max-width: 166px;
+        height: 24px;
+        // background-color: aqua;
+        align-self: self-end;
+      }
     }
   }
 }
