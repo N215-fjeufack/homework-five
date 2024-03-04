@@ -1,0 +1,36 @@
+.about {
+  min-height: 500px;
+  width: $content-width;
+  background-color: coral;
+  margin: 0 auto;
+  padding-top: 100.5px;
+
+  .main-title-box {
+    width: 171px;
+    height: 73px;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+    .main-title {
+      font-weight: 100;
+      font-size: 60px;
+      letter-spacing: 4px;
+    }
+  }
+
+  .paragraph {
+    padding-top: 36.5px;
+  }
+  .sub-title-box {
+    width: 255px;
+    height: 49px;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+    text-wrap: nowrap;
+    .sub-title {
+      margin-top: 101px;
+      font-weight: 100;
+      font-size: 40px;
+      letter-spacing: 3px;
+    }
+  }
+}
