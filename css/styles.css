@@ -532,6 +532,7 @@ nav .links .last-link {
 }
 .about .paragraph {
   padding-top: 36.5px;
+  font-size: 16px;
 }
 .about .sub-title-box {
   width: 255px;
@@ -546,7 +547,7 @@ nav .links .last-link {
   letter-spacing: 3px;
 }
 .about .client-box {
-  width: 712px;
+  max-width: 712px;
   height: 150px;
   margin-top: 36.5px;
   display: flex;
@@ -558,21 +559,41 @@ nav .links .last-link {
 }
 .about .client-box .text-box {
   height: 150px;
-  width: 427px;
+  max-width: 427px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 .about .client-box .text-box .client-paragraph {
-  width: 385px;
+  max-width: 385px;
   height: 102px;
+  font-style: italic;
+  font-size: 16px;
 }
 .about .client-box .text-box .name {
   max-width: 166px;
   height: 24px;
   align-self: self-end;
+  font-size: 20px;
+  font-weight: 100;
+  color: #79addc;
 }
 
+@media all and (max-width: 1024px) {
+  .about {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media all and (max-width: 815px) {
+  .client-box {
+    flex-direction: column;
+    padding-bottom: 250px;
+  }
+  .client-box .image-box {
+    margin-bottom: 10px;
+  }
+}
 footer {
   width: 100%;
   height: 100px;
